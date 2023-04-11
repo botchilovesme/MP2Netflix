@@ -28,13 +28,13 @@ return (
                     "fas fa-door-open fa-3x", 
                     "tab-1"
                     )}
-                    {renderTabTitle(
+                {renderTabTitle(
                     WATCH_ANYWHERE, 
                     activeTabName === WATCH_ANYWHERE,
                     "fas fa-tablet-alt fa-3x", 
                     "tab-2"
                     )}
-                    {renderTabTitle(
+                {renderTabTitle(
                     PICK_YOUR_PRICE, 
                     activeTabName === PICK_YOUR_PRICE,
                     "fas fa-tags fa-3x", 
@@ -76,7 +76,7 @@ return (
                     }`}
                     >
                         <div className="tab-2-content-top">
-                            <p class="text-lg">
+                            <p className="text-lg">
                                 Watch TV shows and movies anytime, anywhere - personalized for 
                                 you.
                             </p>
@@ -145,7 +145,7 @@ return (
                                     <th>Basic</th>
                                     <th>Standard </th>
                                     <th>Premium</th>
-                                </th>
+                                    </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -156,6 +156,7 @@ return (
                                 <td>P250</td>
                             </tr>
                             <tr>
+                                <td>HD Available</td>
                                 <td>
                                     <i className="fas fa-times"></i>
                                 </td>
@@ -167,8 +168,9 @@ return (
                                 </td>
                             </tr>
                             <tr>
-                            <td>
-                                    <i className="fas fa-times"></i>
+                                <td>Ultra HD Available</td>
+                                <td>
+                                    <i className="fas fa-check"></i>
                                 </td>
                                 <td>
                                     <i className="fas fa-check"></i>
@@ -177,6 +179,60 @@ return (
                                     <i className="fas fa-check"></i>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>Screens you can watch on at the same time</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Watch on your laptop, TV phone and tablet</td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td>Unlimited moviees and tv shows </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td>first month free</td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td>Unlimited moviees and tv shows </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                <td>
+                                    <i className="fas fa-check"></i>
+                                </td>
+                                </tr>
                         </tbody>
                     </table>
                 </div>
